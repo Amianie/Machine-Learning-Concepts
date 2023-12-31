@@ -49,7 +49,7 @@ L<sub>2</sub> Loss for a given example is called squared error.This is the squar
 When training a model we do not care about minimizing loss on just one example but we care about minimizing loss across our entire dataset.
 >#### Defining L<sub>2</sub> Loss on a Dataset.
 >
->L<sub>2</sub>Loss=$\sum_{(x,y)\in D}(y-prediction(x))^2$
+>L<sub>2</sub>Loss=$`\sum_{(x,y)\in D}(y-prediction(x))^2`$
 >
 >$\sum$ : We are summing over all examples in the training dataset.
 >
@@ -105,7 +105,7 @@ Training a model refers to determining good values for all the weights and the b
 >
 >**Mean square error**-Is the average square loss per example over the whole dataset.To calculate we need to sum up all the squared losses for individual examples and then divide by the number of examples:
 >
->***MSE***=$1/_N\sum_{(x,y)\in D}(y-prediction(x))^2$
+>***MSE***=$`1/_N\sum_{(x,y)\in D}(y-prediction(x))^2`$
 >
 >where:
 >
