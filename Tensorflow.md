@@ -19,3 +19,14 @@ Using tf.keras requires at least a little understanding of the following two ope
 >
 >Python call matrices lists,NumPy calls them arrays,Tensorflow calls them Tensors.Python represents matrices with the list data type.
 
+>## Pandas Tutorial
+>
+>Here we are introduced to the Data Frames which are the central Data structures in the Pandas API.
+>
+>A dataframe is similar to an in-memory spreadsheet.It entails:
+>
+>- A dataframe store data in cells.
+>
+>- A dataframe has named columns and numbered rows.
+>
+>
